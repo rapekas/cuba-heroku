@@ -211,12 +211,9 @@ apply from: 'extra.gradle'
     'cuba.confDir' : './${cuba.webContextName}/conf',
     'cuba.tempDir' : './${cuba.webContextName}/temp',
     'cuba.dataDir' : './${cuba.webContextName}/work',
-    'cuba.dataSourceJndiName' : 'jdbc/CubaDS',
     'cuba.download.directories' : '${cuba.tempDir};${cuba.logDir}',
     'cuba.dbDir' : 'web-inf:db',
-    'cuba.automaticDatabaseUpdate' : true,
     'cuba.connectionUrlList' : 'http://localhost:8080/app-core',
-    'cuba.useLocalServiceInvocation' : true
 ]
     appHome = '.'
     webXmlPath = 'modules/web/web/WEB-INF/single-war-web.xml'
