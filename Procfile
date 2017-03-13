@@ -1,0 +1,1 @@
+web: java $JAvA_OPTS -cp webapp-runner-8.5.11.3.jar:./libs/* webapp.runner.launch.Main --enable-naming --port $PORT --context-xml ./modules/core/web/META-INF/war-context.xml ./build/distributions/war/app.war
