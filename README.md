@@ -8,4 +8,4 @@ There is a Cuba Platform deployed for Heroku (using WAR).
 3. Launch using command:
 heroku jar:deploy webapp-runner-8.5.11.3.jar --includes ./libs/postgresql-9.4.1212.jar:./libs/tomcat-dbcp-8.5.11.jar:./modules/core/web/META-INF/war-context.xml:./build/distributions/war/app.war
 4. Done!
-5. Detailed documentation - coming soon...
+5. Read the documentation: https://doc.cuba-platform.com/manual-6.4/heroku_deployment.html
