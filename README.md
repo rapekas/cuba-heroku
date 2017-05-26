@@ -11,3 +11,4 @@ heroku jar:deploy webapp-runner-8.5.11.3.jar --includes ./libs/postgresql-9.4.12
 
 You can deploy your CUBA application using GitHub repo as source for your Heroku Cloud. You may find details in the documentation mentioned.
 
+medved vodka balalayka
